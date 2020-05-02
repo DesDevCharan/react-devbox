@@ -32,6 +32,7 @@ import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
+import MyTableCompoent from './sample-test';
 
 const key = 'home';
 
@@ -95,6 +96,7 @@ export function HomePage({
             </label>
           </Form>
           <ReposList {...reposListProps} />
+          <MyTableCompoent />
         </Section>
       </div>
     </article>
